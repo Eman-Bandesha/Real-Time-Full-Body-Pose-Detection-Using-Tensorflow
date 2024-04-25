@@ -26,10 +26,7 @@ The script performs the following tasks:
 5. Writes the processed frames with keypoints drawn to an output video file.
 
 ## Results
-
-Below are the results of full-body pose detection on sample video clips:
-
-![Video with Keypoints](output_video.mp4)
+The resultant video is [here](https://www.kaggle.com/models/google/movenet/tensorFlow2).
 
 ## Acknowledgments
 
