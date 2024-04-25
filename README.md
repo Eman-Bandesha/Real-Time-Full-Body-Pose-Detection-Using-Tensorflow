@@ -1,9 +1,6 @@
 # Real Time Full Body Pose Detection Using Tensorflow Model (Lightweight)
 
-This Python script performs full-body pose detection using the MoveNet model, a lightweight TensorFlow model. It is designed for single-person pose estimation and provides fast and accurate results.
-
-The script processes each frame of a video to detect keypoints representing the full-body pose. It takes around 0.08 seconds to detect keypoints on an image of high resolution (360x640) on a CPU, making it suitable for real-time applications.
-
+This Python script performs full-body pose detection using the MoveNet model, a lightweight TensorFlow model. It is designed for single-person pose estimation and provides fast and accurate results. The script processes each frame of a video to detect keypoints representing the full-body pose. It takes around 0.08 seconds to detect keypoints on an image of high resolution (360x640) on a CPU, making it suitable for real-time applications.
 The MoveNet model is efficient and provides accurate pose estimation, making it a preferred choice for applications requiring fast and reliable full-body pose detection. You can find the MoveNet model on TensorFlow Hub [here]([https://tfhub.dev/google/movenet/singlepose/lightning/4](https://www.kaggle.com/models/google/movenet/tensorFlow2)).
 
 ## Dependencies
@@ -26,7 +23,7 @@ The script performs the following tasks:
 5. Writes the processed frames with keypoints drawn to an output video file.
 
 ## Results
-The resultant video is [here](https://www.kaggle.com/models/google/movenet/tensorFlow2).
+The resultant video is [here](https://github.com/Eman-Bandesha/Real-Time-Full-Body-Pose-Detection-Using-Tensorflow/blob/main/output_video.mp4).
 
 ## Acknowledgments
 
